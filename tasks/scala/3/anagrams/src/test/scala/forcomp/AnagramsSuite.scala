@@ -7,6 +7,7 @@ import org.scalatest.junit.JUnitRunner
 
 import Anagrams._
 
+
 @RunWith(classOf[JUnitRunner])
 class AnagramsSuite extends FunSuite {
 
@@ -104,5 +105,4 @@ class AnagramsSuite extends FunSuite {
     )
     assert(sentenceAnagrams(sentence).toSet === anas.toSet)
   }  
-
 }
